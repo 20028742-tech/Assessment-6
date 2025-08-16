@@ -7,7 +7,8 @@ namespace ExampleApp
     {
         // Auto-implemented properties
         public string FullName { get; set; }
-        public int Years { get; set; }
+        //  Changed
+        public int Age { get; set; }
 
         // Constructor with parameters
         public Person(string fullName, int years)
