@@ -21,7 +21,8 @@ namespace ExampleApp
         public void ShowInfo()
         {
             Console.WriteLine($"Full Name: {FullName}");
-            Console.WriteLine($"Age: {Years}");
+            //Changed
+            Console.WriteLine($"Age: {Age}");
         }
     }
 
